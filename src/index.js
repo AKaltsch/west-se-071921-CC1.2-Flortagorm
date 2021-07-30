@@ -16,7 +16,6 @@ fetch(imageURL)
 .then(data => loadData(data))
 
 function loadData(data) {
-    console.log(data)
     title.innerText = data.title
     image.src = data.image
     counter = data.likes
